@@ -71,7 +71,7 @@
 //
 #define X_MIN_PIN           3
 #ifndef X_MAX_PIN
-  #define X_MAX_PIN         2
+  #define X_MAX_PIN         -1
 #endif
 #define Y_MIN_PIN          14
 #define Y_MAX_PIN          15
@@ -424,7 +424,7 @@
       #endif
 
       #define BTN_ENC           35
-      #define SD_DETECT_PIN     49
+      #define SD_DETECT_PIN     -1
       #define KILL_PIN          41
 
       #if ENABLED(BQ_LCD_SMART_CONTROLLER)
@@ -436,7 +436,7 @@
       #define BTN_EN1           64
       #define BTN_EN2           59
       #define BTN_ENC           63
-      #define SD_DETECT_PIN     42
+      #define SD_DETECT_PIN     -1
 
     #elif ENABLED(LCD_I2C_PANELOLU2)
 
