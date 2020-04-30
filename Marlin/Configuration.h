@@ -1074,16 +1074,16 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 296 // Nozzle is at X4 when homed
-#define Y_BED_SIZE 298 // Nozzle is at Y2 when homed
+#define X_BED_SIZE 300 // Nozzle is at X0 when homed
+#define Y_BED_SIZE 300 // Nozzle is at Y0 when homed
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 319 // 15mm Extra space on the right end
-#define Y_MAX_POS 306 // 4mm Extra space behind the bed
-#define Z_MAX_POS 400
+#define X_MAX_POS 315 // 15mm Extra space on the right end
+#define Y_MAX_POS 303 // 4mm Extra space behind the bed
+#define Z_MAX_POS 330
 
 /**
  * Software Endstops
